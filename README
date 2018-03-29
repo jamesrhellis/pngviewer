@@ -1,0 +1,6 @@
+Simple terminal png viewer for unix terminals with support for
+utf 8 and ansi escape sequences.
+Requires libpng
+
+complie with
+cc -std=c11 qview.c -o qview -lpng
